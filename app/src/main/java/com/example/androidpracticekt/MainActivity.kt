@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
 
         btn_getText.setOnClickListener {
             //에딧텍스트에 입력되어있는 값을 가지고 와서 텍스트뷰에 뿌려준다.
-            var resultText = et_id.text.toString() //에딧텍스트에 입력되어있는값.
-            tv_result.setText(resultText) //입력된 값을 텍스트뷰에 set 해줌.
+            var resultText = et_id.text.toString() //에딧텍스트에 입력되어있는.
+            tv_result.setText(resultText) //입력된 값을 텍스트뷰에 set 해줌.!
         }
 
     }
